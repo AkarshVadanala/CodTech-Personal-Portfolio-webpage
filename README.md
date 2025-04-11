@@ -1,6 +1,6 @@
 # 💼 Codtech Personal Portfolio Webpage
 
-This project is part of the Codtech Internship Task-3, where the goal is to create a **responsive single-page portfolio** using core web technologies like **HTML** and **CSS**, with a clean UI and navigation system.
+This project is part of the Codtech Internship, where the goal is to create a **responsive single-page portfolio** using core web technologies like **HTML** and **CSS**, with a clean UI and navigation system.
 
 ---
 
