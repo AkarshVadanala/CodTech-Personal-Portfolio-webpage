@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Bootstrap Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid ">
+      <a class="navbar-brand fw-bold" href="#">MyPortfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sections -->
+  <section id="about" class="section text-center">
+    <h1>Hello, I'm <span class="name">Akarsh Vadanala</span></h1>
+  <p>
+    I'm a dedicated and enthusiastic MERN Stack Developer with hands-on experience in building dynamic and responsive web applications. I specialize in crafting seamless front-end experiences using React.js and developing powerful back-end services with Node.js and Express.js, all backed by robust MongoDB databases.
+  </p>
+  <p>
+    I enjoy solving real-world problems through clean, efficient code and continuously learning new technologies to stay updated in this fast-paced industry. Whether it's building a full-stack web app from scratch or optimizing an existing project, I bring creativity, precision, and a strong work ethic to every task.
+  </p>
+  <p>
+    Let's connect and create something amazing together!
+  </p>
+  </section>
+
+  <section id="projects" class="section text-center">
+    <h2>Projects</h2>
+    <div class="container mt-4">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title project-title">To-Do List Application</h5>
+              <p class="card-text">
+                A comprehensive todo management tool designed to enhance productivity. 
+                It's a user-friendly interface with HTML, CSS, and Bootstrap for ease of use and an 
+                effortless task management through JavaScript-based CRUD operations with dynamic UI updates. 
+                your tasks are always safe with local storage methods to ensure task persistence. 
+              </p>
+              <p class="card-text">Technologies used: HTML, CSS, JS, Bootstrap</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card shadow-sm h-100 ">
+            <div class="card-body">
+              <h5 class="card-title project-title">Jobby Application</h5>
+              <p class="card-text">
+                Developed a comprehensive job search solution, Jobby App. 
+                Designed pages for Login, Home, Jobs, and Job item details with React components and form inputs. 
+                Secured user data with JWT tokens, REST API calls, and local storage. 
+                Implemented protected routes and persisted login state with React Router and local storage. 
+              </p>
+              <p class="card-text">Technologies used: React JS, JS, CSS, Bootstrap, Routing, REST API Calls, Local Storage, JWT Token, 
+                Authorization, Authentication
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-4">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h5 class="card-title project-title">NxtTrendz Application</h5>
+                <p class="card-text">
+                    Rolled out an innovative e-commerce platform patterned after Amazon and Flipkart. 
+                    Designed pages for Login, Products, and Product details with React Router and React components. 
+                    Ensured user security through JWT tokens, REST API calls, and local storage. 
+                </p>
+                <p class="card-text">Technologies used: React JS, JS, CSS, Bootstrap, Routing, REST API Calls, Local Storage, JWT Token, 
+                    Authorization, Authentication 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card shadow-sm h-100 ">
+              <div class="card-body">
+                <h5 class="card-title project-title">IPL Dashboard</h5>
+                <p class="card-text">
+                    Developed a IPL Dashboard app where users can list of ipl team, individual team 
+                    details and respective team matches info.
+                    Implemented UI such as home dashboard, individual team info routes by 
+                    using React Router library components like Route, Switch, Link, props, lists & keys.
+                    Fetched teams list from server asynchronously using fetch GET HTTP
+                    API call & individual team details, matches info by sending team id as path parameter.
+                    Implemented 404 not found page for invalid paths by keeping 404 Route
+                    as last route in the Switch component with * path.
+                </p>
+                <p class="card-text">Technologies used : React JS, Routing, REST API Calls, CSS, Bootstrap</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="contact" class="section text-center">
+    <h2>Contact Me</h2>
+    <p>Email: akarshvadanala@gmail.com</p>
+    <p>LinkedIn: linkedin.com/in/akarshvadanala</p>
+  </section>
+
+  <footer class="bg-dark text-white text-center p-3 mt-4">
+    &copy; 2025 AkarshVadanala. All rights reserved.
+  </footer>
+
+  <!-- Bootstrap JS Bundle CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
