@@ -1,3 +1,14 @@
+---
+
+COMPANY: "CODTECH IT SOLUTIONS"
+NAME: "AKARSH VADANALA"
+INTERN ID: "CT6WVTV"
+DOMAIN: "FRONTEND WEB DEVELOPMENT"
+DURATION: "6 WEEKS"
+MENTOR: "NEELA SANTOSH KUMAR"
+
+---
+
 # 💼 Codtech Personal Portfolio Webpage
 
 This project is part of the Codtech Internship, where the goal is to create a **responsive single-page portfolio** using core web technologies like **HTML** and **CSS**, with a clean UI and navigation system.
